@@ -51,6 +51,16 @@ header {
   background-color: #ffc61a;
 }
 
+body .main1 {
+  width: 50%;
+  margin: -40px 500px;
+  height: 80px;
+  background-color: #ffd044;
+}
+
+body .main1 h1 {
+  justify-content: center;
+}
 /*hamburger menu*/
 .menu-toggle {
   display: none;
