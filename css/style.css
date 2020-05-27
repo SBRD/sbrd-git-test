@@ -12,7 +12,7 @@ nav {
   width: 100%;
   margin: auto;
   display: flex;
-  background: linear-gradient(to right, #ffc61a, #ff761a);
+  background: linear-gradient(to right, #ffc61a, #ff761a, #ffc61a);
   justify-content: space-around;
   padding: 20px 0;
   color: #fff3cd;
@@ -43,7 +43,7 @@ nav .logo {
 
 header {
   width: 100%;
-  height: 600px;
+  height: 400px;
   margin: auto;
   color: #fffaeb;
   text-align: center;
@@ -55,11 +55,14 @@ body .main1 {
   width: 50%;
   margin: -40px 500px;
   height: 80px;
+  box-shadow: 10px 10px 10px #888;
   background-color: #ffd044;
 }
 
 body .main1 h1 {
-  justify-content: center;
+  display: block;
+  text-align: center;
+  padding-top: 20px;
 }
 /*hamburger menu*/
 .menu-toggle {
